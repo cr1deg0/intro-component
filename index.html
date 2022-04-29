@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="first-container">
+      <h1>Learn to code by watching others</h1>
+      <p>
+        See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+        but understanding how developers think is invaluable.
+      </p>
+    </div>
+    <div class="second-container">
+      <div><strong>Try it free 7 days</strong> then $20/mo. thereafter</div>
+      <form novalidate action="." method="">
+        <div>
+          <input type="text" id="firstname" name="firstname" placeholder=" " required pattern="[A-z]+"/>
+          <label for="firstname" id="lbl--firstname">First Name</label>
+          <span id="error--firstname" class="error--message" aria-live="polite"></span>
+        </div>
+        <div>
+          <input type="text" id="lastname" name="lastname" required pattern="[A-z\s]+"/>
+          <label for="lastname" id="lbl--lastname">Last Name</label>
+          <span id="error--lastname" class="error--message" aria-live="polite"></span>
+        </div>
+        <div>
+          <input type="email" id="email" name="email" required/>
+          <label for="email" id="lbl--email">Email Address</label>
+          <span id="error--email" class="error--message" aria-live="polite"></span>
+        </div>
+        <div>
+          <input type="password" id="password" name="password" required/>
+          <label for="password" id="lbl--password">Password</label>
+          <span id="error--password" class="error--message" aria-live="polite"></span>
+        </div>
+        <button type="submit">CLAIM YOUR FREE TRIAL</button>
+        <p>By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></p>
+      </form>
+    </div>
+  </div>
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.frontendmentor.io/profile/cr1deg0/solutions">Cristina</a>.
+    </p>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+</html>
