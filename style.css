@@ -142,10 +142,6 @@ button[type="submit"]:hover {
     .first-container > p {
         font-weight: 500;
     }
-    .input-error {
-        background-position: 460px;
-    }
-    
 }
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
