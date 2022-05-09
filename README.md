@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/mobile-first-intro-component-with-sign-up-form-B1oSJhYrc)
-- Live Site URL: [Add live site URL here](https://cr1deg0.github.io/intro-component/)
+- [Solution URL](https://www.frontendmentor.io/solutions/mobile-first-intro-component-with-sign-up-form-B1oSJhYrc)
+- [Live Site URL](https://cr1deg0.github.io/intro-component/)
 
 ## My process
 
