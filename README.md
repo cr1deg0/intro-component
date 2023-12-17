@@ -2,6 +2,8 @@
 
 This is a solution to the [Intro component with sign up form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
+<img width="1221" alt="Intro component" src="https://github.com/cr1deg0/intro-component/assets/86016298/25faa513-f3ec-48c0-bd88-586462ed2aaa">
+
 ## Table of contents
 
 - [Overview](#overview)
